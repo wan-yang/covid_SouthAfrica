@@ -1,0 +1,5 @@
+"variant","attack rate","immune erosion","cumulative percentage ever infected","percentage reinfection this wave, of those infected this wave","percentage reinfection this wave, of the entire population"
+"Ancestral",0.3,0,0.3,0,0
+"Beta",0.2,0.65,0.456424581005587,0.217877094972067,0.0435754189944134
+"Delta",0.5,0.4,0.830712933059749,0.251423295891676,0.125711647945838
+"Omicron (BA.1)",0.4,0.65,0.92618671744612,0.761315539034072,0.304526215613629

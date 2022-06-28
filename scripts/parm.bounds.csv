@@ -1,0 +1,617 @@
+"cn.code","country","location","parm","type","SR.level","period","date.start","date.end","lwr","upr","note"
+NA,"South Africa","Eastern Cape","wave.start","wt",NA,NA,2020-03-01,2020-08-15,NA,NA,NA
+NA,"South Africa","Eastern Cape","wave.start","beta",NA,NA,2020-08-16,2021-04-30,NA,NA,"earliest beta wave, Tegally et al. Nature"
+NA,"South Africa","Eastern Cape","wave.start","delta",NA,NA,2021-05-01,2021-10-15,NA,NA,"later delta wave"
+NA,"South Africa","Eastern Cape","wave.start","omicron",NA,NA,2021-10-16,2022-12-31,NA,NA,NA
+NA,"South Africa","Eastern Cape","wk.start","initialization",NA,"start",2020-03-15,2020-03-15,NA,NA,"# first week of inference"
+NA,"South Africa","Eastern Cape","seed","initialization",NA,"start",2020-03-15,2020-03-15,0.05,0.05,NA
+NA,"South Africa","Eastern Cape","p.seed.max","initialization",NA,"start",2020-03-15,2020-03-15,500,500,"x case during 1st week, similar to Western Cape"
+NA,"South Africa","Eastern Cape","pOEV","initialization",NA,"start",2020-03-15,2020-03-15,3,NA,NA
+NA,"South Africa","Eastern Cape","tm_largerVar","initialization",NA,"start",2020-03-15,2020-03-15,3,NA,NA
+NA,"South Africa","Eastern Cape","tighterOEV4death","initialization",NA,"start",2020-03-15,2020-03-15,0,NA,NA
+NA,"South Africa","Eastern Cape","VE1beta","initialization",NA,"start",2020-03-15,2020-03-15,0.2,NA,"This is for beta, when vaccine roll out # more Pfizer vaccines are used than JnJ, about 2:1, =0.85*2/3 + 0.6*1/3 = .76"
+NA,"South Africa","Eastern Cape","VE2beta","initialization",NA,"start",2020-03-15,2020-03-15,0.85,NA,"0.8666666666666667"
+NA,"South Africa","Eastern Cape","VE1delta","initialization",NA,"start",2020-03-15,2020-03-15,0.35,NA,NA
+NA,"South Africa","Eastern Cape","VE2delta","initialization",NA,"start",2020-03-15,2020-03-15,0.75,NA,"0.81"
+NA,"South Africa","Eastern Cape","Td.mean","initialization",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Eastern Cape","Td.mean","SR",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Eastern Cape","alpha","initialization",NA,"start",2020-01-01,2020-03-15,0.001,0.01,"for initalization"
+NA,"South Africa","Eastern Cape","alpha","SR","normal","start",2020-03-16,2020-04-11,0.001,0.05,"looks low in early weeks"
+NA,"South Africa","Eastern Cape","alpha","SR","extra.first2wk","wave1",2020-04-12,2020-08-15,0.02,0.12,"wt"
+NA,"South Africa","Eastern Cape","alpha","SR","normal","wave2",2020-08-16,2021-04-30,0.03,0.12,"beta"
+NA,"South Africa","Eastern Cape","alpha","SR","normal","wave3",2021-05-01,2021-10-15,0.03,0.12,"delta"
+NA,"South Africa","Eastern Cape","alpha","SR","extra.allwks","wave4",2021-10-16,2022-12-31,0.01,0.08,"omicron, mixed with large number of prior infection and some vaccination to reduce severity among re-infection"
+NA,"South Africa","Eastern Cape","alpha","DA",NA,"start",2020-01-01,2020-03-15,0.0075,0.12,NA
+NA,"South Africa","Eastern Cape","alpha","DA",NA,"start",2020-03-16,2020-04-11,0.0075,0.2,NA
+NA,"South Africa","Eastern Cape","alpha","DA",NA,"wave1",2020-04-12,2020-08-15,0.015,0.25,"wt"
+NA,"South Africa","Eastern Cape","alpha","DA",NA,"wave2",2020-08-16,2021-04-30,0.02,0.25,"beta"
+NA,"South Africa","Eastern Cape","alpha","DA",NA,"wave3",2021-05-01,2021-10-15,0.02,0.25,"delta"
+NA,"South Africa","Eastern Cape","alpha","DA",NA,"wave4",2021-10-16,2022-12-31,0.01,0.3,"omicron"
+NA,"South Africa","Eastern Cape","ifr","initialization",NA,"start",2020-01-01,2020-03-15,1e-04,0.003,"somehow high cfr throughout the pandmeic"
+NA,"South Africa","Eastern Cape","ifr","SR","normal","start",2020-03-16,2020-04-11,1e-04,0.003,NA
+NA,"South Africa","Eastern Cape","ifr","SR","extra.first2wk","wave1early",2020-04-12,2020-04-18,1e-04,0.003,NA
+NA,"South Africa","Eastern Cape","ifr","SR","extra.first2wk","wave1wave2early",2020-04-19,2020-09-30,1e-04,0.004,"weeks with lower ifr"
+NA,"South Africa","Eastern Cape","ifr","SR","extra.allwks","wave2late",2020-10-01,2021-04-30,1e-04,0.01,"some increase during peak beta wave"
+NA,"South Africa","Eastern Cape","ifr","SR","extra.first2wk","wave3",2021-05-01,2021-10-15,1e-04,0.005,"looks low during delta wave, even cases are high, likely reduced ifr for reinfection"
+NA,"South Africa","Eastern Cape","ifr","SR","EXTRA.first1wk","wave4",2021-10-16,2022-12-31,1e-05,0.002,NA
+NA,"South Africa","Eastern Cape","ifr","DA",NA,"start",2020-01-01,2020-04-11,1e-06,0.005,NA
+NA,"South Africa","Eastern Cape","ifr","DA",NA,"wave1early",2020-04-12,2020-04-18,1e-06,0.005,NA
+NA,"South Africa","Eastern Cape","ifr","DA",NA,"wave1wave2early",2020-04-19,2020-09-30,1e-05,0.01,NA
+NA,"South Africa","Eastern Cape","ifr","DA",NA,"wave2late",2020-10-01,2021-04-30,1e-05,0.02,NA
+NA,"South Africa","Eastern Cape","ifr","DA",NA,"wave3",2021-05-01,2021-10-15,1e-05,0.01,NA
+NA,"South Africa","Eastern Cape","ifr","DA",NA,"wave4",2021-10-16,2022-12-31,1e-06,0.01,NA
+NA,"South Africa","Eastern Cape","beta","initialization",NA,"start",NA,NA,0.4,0.7,NA
+NA,"South Africa","Eastern Cape","beta","SR",NA,"start",2020-01-01,2020-03-15,0.4,0.7,NA
+NA,"South Africa","Eastern Cape","beta","SR","normal","wave1",2020-03-16,2020-08-15,0.4,0.7,"wt"
+NA,"South Africa","Eastern Cape","beta","SR","extra.first3wk","wave2",2020-08-16,2021-04-30,0.5,0.9,"beta"
+NA,"South Africa","Eastern Cape","beta","SR","extra.first3wk","wave3",2021-05-01,2021-10-15,0.7,1.25,"delta"
+NA,"South Africa","Eastern Cape","beta","SR","extra.first16wk","wave4",2021-10-16,2022-12-31,0.8,1.3,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Eastern Cape","beta","DA",NA,"start",2020-01-01,2020-03-15,0.2,1.4,NA
+NA,"South Africa","Eastern Cape","beta","DA",NA,"wave1",2020-03-16,2020-08-15,0.2,1.4,"wt"
+NA,"South Africa","Eastern Cape","beta","DA",NA,"wave2",2020-08-16,2021-04-30,0.2,1.8,"beta"
+NA,"South Africa","Eastern Cape","beta","DA",NA,"wave3",2021-05-01,2021-10-15,0.2,2,"delta, lower upper bound to reduce uncertainty and skewness of estimate"
+NA,"South Africa","Eastern Cape","beta","DA",NA,"wave4",2021-10-16,2022-12-31,0.2,2.5,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Eastern Cape","S","filtering",NA,"no.imm.escape",2020-01-01,2020-08-15,NA,NA,NA
+NA,"South Africa","Eastern Cape","S","filtering",NA,"imm.escape",2020-08-16,2021-04-16,NA,NA,"beta"
+NA,"South Africa","Eastern Cape","S","filtering",NA,"no.imm.escape",2021-04-17,2021-04-30,NA,NA,"beta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Eastern Cape","S","filtering",NA,"imm.escape",2021-05-01,2021-10-01,NA,NA,"delta"
+NA,"South Africa","Eastern Cape","S","filtering",NA,"no.imm.escape",2021-10-02,2021-10-15,NA,NA,"delta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Eastern Cape","S","filtering",NA,"imm.escape",2021-10-16,2022-02-01,NA,NA,"omicron"
+NA,"South Africa","Eastern Cape","S","filtering",NA,"no.imm.escape",2022-02-02,2022-12-31,NA,NA,"omicron"
+NA,"South Africa","Eastern Cape","S","filtering",NA,"reset cntSR.S",2020-10-15,2020-10-21,NA,NA,"beta"
+NA,"South Africa","Eastern Cape","S","filtering",NA,"reset cntSR.S",2021-05-01,2021-05-07,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Eastern Cape","S","filtering",NA,"reset cntSR.S",2021-11-01,2021-11-07,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Eastern Cape","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Eastern Cape","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Eastern Cape","variant-wildtype","variant characterization",NA,NA,2020-03-01,2020-08-15,NA,NA,NA
+NA,"South Africa","Eastern Cape","variant-beta","variant characterization",NA,NA,2020-08-16,2021-04-30,NA,NA,NA
+NA,"South Africa","Eastern Cape","variant-delta","variant characterization",NA,NA,2021-05-01,2021-10-15,NA,NA,NA
+NA,"South Africa","Eastern Cape","variant-omicron","variant characterization",NA,NA,2021-10-16,2022-12-31,NA,NA,NA
+NA,"South Africa","Free State","wave.start","wt",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Free State","wave.start","beta",NA,NA,2020-11-01,2021-05-31,NA,NA,"earlier beta wave"
+NA,"South Africa","Free State","wave.start","delta",NA,NA,2021-06-01,2021-09-30,NA,NA,"later delta wave, genomic data: https://www.nicd.ac.za/wp-content/uploads/2021/08/Update-of-SA-sequencing-data-from-GISAID-19-August-2021.pdf"
+NA,"South Africa","Free State","wave.start","omicron",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","Free State","wk.start","initialization",NA,"start",2020-03-15,2020-03-15,NA,NA,"# first week of inference"
+NA,"South Africa","Free State","seed","initialization",NA,"start",2020-03-15,2020-03-15,0.02,0.02,NA
+NA,"South Africa","Free State","p.seed.max","initialization",NA,"start",2020-03-15,2020-03-15,10,10,"x case during 1st week"
+NA,"South Africa","Free State","pOEV","initialization",NA,"start",2020-03-15,2020-03-15,3,NA,NA
+NA,"South Africa","Free State","tm_largerVar","initialization",NA,"start",2020-03-15,2020-03-15,20,NA,NA
+NA,"South Africa","Free State","tighterOEV4death","initialization",NA,"start",2020-03-15,2020-03-15,0,NA,NA
+NA,"South Africa","Free State","VE1beta","initialization",NA,"start",2020-03-15,2020-03-15,0.2,NA,"# more Pfizer vaccines are used than JnJ, about 2:1, =0.85*2/3 + 0.6*1/3 = .76"
+NA,"South Africa","Free State","VE2beta","initialization",NA,"start",2020-03-15,2020-03-15,0.85,NA,"0.8666666666666667"
+NA,"South Africa","Free State","VE1delta","initialization",NA,"start",2020-03-15,2020-03-15,0.35,NA,NA
+NA,"South Africa","Free State","VE2delta","initialization",NA,"start",2020-03-15,2020-03-15,0.75,NA,"0.81"
+NA,"South Africa","Free State","Td.mean","initialization",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Free State","Td.mean","SR",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Free State","alpha","initialization",NA,"start",2020-01-01,2020-03-15,0.01,0.06,"for initalization"
+NA,"South Africa","Free State","alpha","SR","normal","start",2020-03-16,2020-04-11,0.01,0.08,NA
+NA,"South Africa","Free State","alpha","SR","extra.first2wk","wave1",2020-04-12,2020-10-31,0.02,0.12,"wt"
+NA,"South Africa","Free State","alpha","SR","normal","wave2",2020-11-01,2021-05-31,0.03,0.12,"beta"
+NA,"South Africa","Free State","alpha","SR","normal","wave3",2021-06-01,2021-09-30,0.03,0.12,"delta"
+NA,"South Africa","Free State","alpha","SR","extra.allwks","wave4",2021-10-01,2022-12-31,0.01,0.08,"omicron, mixed with large number of prior infection and some vaccination to reduce severity among re-infection"
+NA,"South Africa","Free State","alpha","DA",NA,"start",2020-01-01,2020-03-15,0.0075,0.12,NA
+NA,"South Africa","Free State","alpha","DA",NA,"start",2020-03-16,2020-04-11,0.0075,0.2,NA
+NA,"South Africa","Free State","alpha","DA",NA,"wave1",2020-04-12,2020-10-31,0.015,0.25,"wt"
+NA,"South Africa","Free State","alpha","DA",NA,"wave2",2020-11-01,2021-05-31,0.02,0.25,"beta"
+NA,"South Africa","Free State","alpha","DA",NA,"wave3",2021-06-01,2021-09-30,0.02,0.25,"delta"
+NA,"South Africa","Free State","alpha","DA",NA,"wave4",2021-10-01,2022-12-31,0.01,0.3,"omicron"
+NA,"South Africa","Free State","ifr","initialization",NA,"start",2020-01-01,2020-03-15,1e-04,0.003,"somehow high cfr throughout the pandmeic"
+NA,"South Africa","Free State","ifr","SR","normal","start",2020-03-16,2020-04-11,1e-04,0.006,NA
+NA,"South Africa","Free State","ifr","SR","extra.first2wk","wave1early",2020-04-12,2020-04-18,1e-04,0.006,NA
+NA,"South Africa","Free State","ifr","SR","extra.first2wk","wave1wave2early",2020-04-19,2020-10-31,1e-04,0.006,"very cfr"
+NA,"South Africa","Free State","ifr","SR","extra.first2wk","wave2late",2020-11-01,2021-05-31,5e-04,0.01,"some increase during peak beta wave"
+NA,"South Africa","Free State","ifr","SR","extra.first2wk","wave3",2021-06-01,2021-09-30,1e-04,0.008,"looks low during delta wave, even cases are high, likely reduced ifr for reinfection"
+NA,"South Africa","Free State","ifr","SR","EXTRA.first1wk","wave4",2021-10-01,2022-12-31,1e-05,0.002,NA
+NA,"South Africa","Free State","ifr","DA",NA,"start",2020-01-01,2020-04-11,1e-06,0.005,NA
+NA,"South Africa","Free State","ifr","DA",NA,"wave1early",2020-04-12,2020-04-18,1e-06,0.005,NA
+NA,"South Africa","Free State","ifr","DA",NA,"wave1wave2early",2020-04-19,2020-12-12,1e-05,0.02,NA
+NA,"South Africa","Free State","ifr","DA",NA,"wave2late",2020-12-13,2021-05-31,1e-05,0.02,NA
+NA,"South Africa","Free State","ifr","DA",NA,"wave3",2021-06-01,2021-09-30,1e-05,0.02,NA
+NA,"South Africa","Free State","ifr","DA",NA,"wave4",2021-10-01,2022-12-31,1e-06,0.02,NA
+NA,"South Africa","Free State","beta","initialization",NA,"start",NA,NA,0.4,0.7,NA
+NA,"South Africa","Free State","beta","SR",NA,"start",2020-01-01,2020-03-15,0.4,0.7,NA
+NA,"South Africa","Free State","beta","SR","normal","wave1",2020-03-16,2020-10-31,0.4,0.7,"wt"
+NA,"South Africa","Free State","beta","SR","extra.first3wk","wave2",2020-11-01,2021-05-31,0.5,0.9,"beta"
+NA,"South Africa","Free State","beta","SR","extra.first3wk","wave3",2021-06-01,2021-09-30,0.7,1.25,"delta"
+NA,"South Africa","Free State","beta","SR","extra.first16wk","wave4",2021-10-01,2022-12-31,0.8,1.3,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Free State","beta","DA",NA,"start",2020-01-01,2020-03-15,0.2,1.4,NA
+NA,"South Africa","Free State","beta","DA",NA,"wave1",2020-03-16,2020-10-31,0.2,1.4,"wt"
+NA,"South Africa","Free State","beta","DA",NA,"wave2",2020-11-01,2021-05-31,0.2,1.8,"beta"
+NA,"South Africa","Free State","beta","DA",NA,"wave3",2021-06-01,2021-09-30,0.2,2,"delta, lower upper bound to reduce uncertainty and skewness of estimate"
+NA,"South Africa","Free State","beta","DA",NA,"wave4",2021-10-01,2022-12-31,0.2,2.5,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Free State","S","filtering",NA,"no.imm.escape",2020-01-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Free State","S","filtering",NA,"imm.escape",2020-11-01,2021-05-17,NA,NA,"beta"
+NA,"South Africa","Free State","S","filtering",NA,"no.imm.escape",2021-05-18,2021-05-31,NA,NA,"beta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Free State","S","filtering",NA,"imm.escape",2021-06-01,2021-09-16,NA,NA,"delta"
+NA,"South Africa","Free State","S","filtering",NA,"no.imm.escape",2021-09-17,2021-09-30,NA,NA,"delta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Free State","S","filtering",NA,"imm.escape",2021-10-01,2022-02-01,NA,NA,"omicron"
+NA,"South Africa","Free State","S","filtering",NA,"no.imm.escape",2022-02-02,2022-12-31,NA,NA,"omicron"
+NA,"South Africa","Free State","S","filtering",NA,"reset cntSR.S",2020-12-07,2020-12-13,NA,NA,"beta"
+NA,"South Africa","Free State","S","filtering",NA,"reset cntSR.S",2021-06-01,2021-06-07,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Free State","S","filtering",NA,"reset cntSR.S",2021-11-01,2021-11-07,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Free State","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Free State","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Free State","variant-wildtype","variant characterization",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Free State","variant-beta","variant characterization",NA,NA,2020-11-01,2021-05-31,NA,NA,NA
+NA,"South Africa","Free State","variant-delta","variant characterization",NA,NA,2021-06-01,2021-09-30,NA,NA,NA
+NA,"South Africa","Free State","variant-omicron","variant characterization",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","Gauteng","wave.start","wt",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Gauteng","wave.start","beta",NA,NA,2020-11-01,2021-05-15,NA,NA,NA
+NA,"South Africa","Gauteng","wave.start","delta",NA,NA,2021-05-16,2021-08-31,NA,NA,"genomic data: https://www.nicd.ac.za/wp-content/uploads/2021/08/Update-of-SA-sequencing-data-from-GISAID-19-August-2021.pdf"
+NA,"South Africa","Gauteng","wave.start","omicron",NA,NA,2021-09-01,2022-12-31,NA,NA,NA
+NA,"South Africa","Gauteng","wk.start","initialization",NA,"start",2020-03-15,2020-03-15,NA,NA,"# first week of inference"
+NA,"South Africa","Gauteng","seed","initialization",NA,"start",2020-03-15,2020-03-15,0.1,0.1,NA
+NA,"South Africa","Gauteng","p.seed.max","initialization",NA,"start",2020-03-15,2020-03-15,20,20,"x case during 1st week"
+NA,"South Africa","Gauteng","pOEV","initialization",NA,"start",2020-03-15,2020-03-15,1.5,NA,NA
+NA,"South Africa","Gauteng","tm_largerVar","initialization",NA,"start",2020-03-15,2020-03-15,10,NA,NA
+NA,"South Africa","Gauteng","tighterOEV4death","initialization",NA,"start",2020-03-15,2020-03-15,0,NA,NA
+NA,"South Africa","Gauteng","VE1beta","initialization",NA,"start",2020-03-15,2020-03-15,0.2,NA,"# more Pfizer vaccines are used than JnJ, about 2:1, =0.85*2/3 + 0.6*1/3 = .76"
+NA,"South Africa","Gauteng","VE2beta","initialization",NA,"start",2020-03-15,2020-03-15,0.85,NA,"0.8666666666666667"
+NA,"South Africa","Gauteng","VE1delta","initialization",NA,"start",2020-03-15,2020-03-15,0.35,NA,NA
+NA,"South Africa","Gauteng","VE2delta","initialization",NA,"start",2020-03-15,2020-03-15,0.75,NA,"0.81"
+NA,"South Africa","Gauteng","Td.mean","initialization",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Gauteng","Td.mean","SR",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Gauteng","alpha","initialization",NA,"start",2020-01-01,2020-03-15,0.01,0.06,"for initalization"
+NA,"South Africa","Gauteng","alpha","SR","normal","start",2020-03-16,2020-04-11,0.01,0.08,NA
+NA,"South Africa","Gauteng","alpha","SR","extra.first2wk","wave1",2020-04-12,2020-10-31,0.02,0.12,"wt"
+NA,"South Africa","Gauteng","alpha","SR","normal","wave2",2020-11-01,2021-05-15,0.03,0.12,"beta"
+NA,"South Africa","Gauteng","alpha","SR","normal","wave3",2021-05-16,2021-08-31,0.03,0.12,"delta"
+NA,"South Africa","Gauteng","alpha","SR","extra.allwks","wave3",2021-09-01,2021-11-19,0.01,0.08,"11/19/21, omicron detected"
+NA,"South Africa","Gauteng","alpha","SR","extra.allwks","wave4",2021-11-20,2021-11-27,0.01,0.08,".08 is best among the four levels; .1 even better; .12 seemed better but still too high; .15 too high? omicron first reported"
+NA,"South Africa","Gauteng","alpha","SR","Extra.first1wk","wave4",2021-11-28,2021-12-04,0.05,0.25,".05-.2 too high?, .05-.15 made it overestimate more; omicron first reported"
+NA,"South Africa","Gauteng","alpha","SR","EXTRA.first1wk","wave4",2021-12-05,2021-12-11,0.01,0.08,".12 is too high; high transmission, started to hit test capacity"
+NA,"South Africa","Gauteng","alpha","SR","extra.allwks","wave4",2021-12-12,2022-12-31,0.01,0.08,"omicron, mixed with large number of prior infection and some vaccination to reduce severity among re-infection"
+NA,"South Africa","Gauteng","alpha","DA",NA,"start",2020-01-01,2020-03-15,0.0075,0.12,NA
+NA,"South Africa","Gauteng","alpha","DA",NA,"start",2020-03-16,2020-04-11,0.0075,0.2,NA
+NA,"South Africa","Gauteng","alpha","DA",NA,"wave1",2020-04-12,2020-10-31,0.02,0.25,"wt"
+NA,"South Africa","Gauteng","alpha","DA",NA,"wave2",2020-11-01,2021-05-15,0.02,0.25,"beta"
+NA,"South Africa","Gauteng","alpha","DA",NA,"wave3",2021-05-16,2021-08-31,0.02,0.25,"delta, slightly higher"
+NA,"South Africa","Gauteng","alpha","DA",NA,"wave4",2021-09-01,2022-12-31,0.01,0.5,"omicron"
+NA,"South Africa","Gauteng","ifr","initialization",NA,"start",2020-01-01,2020-03-15,1e-04,0.002,"started with travelers, more healthy"
+NA,"South Africa","Gauteng","ifr","SR","normal","start",2020-03-16,2020-04-11,1e-04,0.002,NA
+NA,"South Africa","Gauteng","ifr","SR","extra.first2wk","wave1early",2020-04-12,2020-04-18,1e-04,0.002,NA
+NA,"South Africa","Gauteng","ifr","SR","extra.first2wk","wave1wave2early",2020-04-19,2020-12-12,1e-04,0.002,"weeks with lower ifr"
+NA,"South Africa","Gauteng","ifr","SR","extra.first2wk","wave2late",2020-12-13,2021-05-15,1e-04,0.005,"some increase during peak beta wave"
+NA,"South Africa","Gauteng","ifr","SR","extra.first2wk","wave3",2021-05-16,2021-08-31,1e-04,0.002,"looks low during delta wave, even cases are high, likely reduced ifr for reinfection"
+NA,"South Africa","Gauteng","ifr","SR","EXTRA.first1wk","wave4",2021-09-01,2022-12-31,1e-05,0.00075,NA
+NA,"South Africa","Gauteng","ifr","DA",NA,"start",2020-01-01,2020-04-11,1e-06,0.005,NA
+NA,"South Africa","Gauteng","ifr","DA",NA,"wave1early",2020-04-12,2020-04-18,1e-06,0.005,NA
+NA,"South Africa","Gauteng","ifr","DA",NA,"wave1wave2early",2020-04-19,2020-12-12,1e-05,0.01,NA
+NA,"South Africa","Gauteng","ifr","DA",NA,"wave2late",2020-12-13,2021-05-15,1e-05,0.02,NA
+NA,"South Africa","Gauteng","ifr","DA",NA,"wave3",2021-05-16,2021-08-31,1e-05,0.01,NA
+NA,"South Africa","Gauteng","ifr","DA",NA,"wave4",2021-09-01,2022-12-31,1e-06,0.01,NA
+NA,"South Africa","Gauteng","beta","initialization",NA,"start",NA,NA,0.4,0.7,NA
+NA,"South Africa","Gauteng","beta","SR",NA,"start",2020-01-01,2020-03-15,0.4,0.7,NA
+NA,"South Africa","Gauteng","beta","SR","normal","wave1",2020-03-16,2020-10-31,0.4,0.7,"wt"
+NA,"South Africa","Gauteng","beta","SR","extra.first3wk","wave2",2020-11-01,2021-05-15,0.5,0.9,"beta"
+NA,"South Africa","Gauteng","beta","SR","extra.first3wk","wave3",2021-05-16,2021-08-31,0.7,1.25,"delta"
+NA,"South Africa","Gauteng","beta","SR","extra.first16wk","wave4",2021-09-01,2022-12-31,0.8,1.3,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Gauteng","beta","DA",NA,"start",2020-01-01,2020-03-15,0.2,1.4,NA
+NA,"South Africa","Gauteng","beta","DA",NA,"wave1",2020-03-16,2020-10-31,0.2,1.4,"wt"
+NA,"South Africa","Gauteng","beta","DA",NA,"wave2",2020-11-01,2021-05-15,0.2,1.8,"beta"
+NA,"South Africa","Gauteng","beta","DA",NA,"wave3",2021-05-16,2021-08-31,0.2,2,"delta, lower upper bound to reduce uncertainty and skewness of estimate"
+NA,"South Africa","Gauteng","beta","DA",NA,"wave4",2021-09-01,2022-12-31,0.2,2.5,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Gauteng","S","filtering",NA,"no.imm.escape",2020-01-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Gauteng","S","filtering",NA,"imm.escape",2020-11-01,2021-05-01,NA,NA,"beta"
+NA,"South Africa","Gauteng","S","filtering",NA,"no.imm.escape",2021-05-02,2021-05-15,NA,NA,"beta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Gauteng","S","filtering",NA,"imm.escape",2021-05-16,2021-08-17,NA,NA,"delta"
+NA,"South Africa","Gauteng","S","filtering",NA,"no.imm.escape",2021-08-18,2021-08-31,NA,NA,"delta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Gauteng","S","filtering",NA,"imm.escape",2021-09-01,2022-02-01,NA,NA,"omicron"
+NA,"South Africa","Gauteng","S","filtering",NA,"no.imm.escape",2022-02-02,2022-12-31,NA,NA,"omicron"
+NA,"South Africa","Gauteng","S","filtering",NA,"reset cntSR.S",2020-11-29,2020-12-05,NA,NA,"beta"
+NA,"South Africa","Gauteng","S","filtering",NA,"reset cntSR.S",2021-05-16,2021-05-22,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Gauteng","S","filtering",NA,"reset cntSR.S",2021-10-01,2021-10-07,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Gauteng","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Gauteng","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Gauteng","variant-wildtype","variant characterization",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Gauteng","variant-beta","variant characterization",NA,NA,2020-11-01,2021-05-15,NA,NA,NA
+NA,"South Africa","Gauteng","variant-delta","variant characterization",NA,NA,2021-05-16,2021-08-31,NA,NA,NA
+NA,"South Africa","Gauteng","variant-omicron","variant characterization",NA,NA,2021-09-01,2022-12-31,NA,NA,NA
+NA,"South Africa","KwaZulu-Natal","wave.start","wt",NA,NA,2020-03-01,2020-09-15,NA,NA,NA
+NA,"South Africa","KwaZulu-Natal","wave.start","beta",NA,NA,2020-09-16,2021-05-15,NA,NA,"earlier beta wave, Tegally et al. Nature"
+NA,"South Africa","KwaZulu-Natal","wave.start","delta",NA,NA,2021-05-16,2021-09-30,NA,NA,NA
+NA,"South Africa","KwaZulu-Natal","wave.start","omicron",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","KwaZulu-Natal","wk.start","initialization",NA,"start",2020-03-15,2020-03-15,NA,NA,"# first week of inference"
+NA,"South Africa","KwaZulu-Natal","seed","initialization",NA,"start",2020-03-15,2020-03-15,0.02,0.02,NA
+NA,"South Africa","KwaZulu-Natal","p.seed.max","initialization",NA,"start",2020-03-15,2020-03-15,10,10,"x case during 1st week"
+NA,"South Africa","KwaZulu-Natal","pOEV","initialization",NA,"start",2020-03-15,2020-03-15,3,NA,NA
+NA,"South Africa","KwaZulu-Natal","tm_largerVar","initialization",NA,"start",2020-03-15,2020-03-15,10,NA,NA
+NA,"South Africa","KwaZulu-Natal","tighterOEV4death","initialization",NA,"start",2020-03-15,2020-03-15,0,NA,NA
+NA,"South Africa","KwaZulu-Natal","VE1beta","initialization",NA,"start",2020-03-15,2020-03-15,0.2,NA,"# more Pfizer vaccines are used than JnJ, about 2:1, =0.85*2/3 + 0.6*1/3 = .76"
+NA,"South Africa","KwaZulu-Natal","VE2beta","initialization",NA,"start",2020-03-15,2020-03-15,0.85,NA,"0.8666666666666667"
+NA,"South Africa","KwaZulu-Natal","VE1delta","initialization",NA,"start",2020-03-15,2020-03-15,0.35,NA,NA
+NA,"South Africa","KwaZulu-Natal","VE2delta","initialization",NA,"start",2020-03-15,2020-03-15,0.75,NA,"0.81"
+NA,"South Africa","KwaZulu-Natal","Td.mean","initialization",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","KwaZulu-Natal","Td.mean","SR",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","KwaZulu-Natal","alpha","initialization",NA,"start",2020-01-01,2020-03-15,0.01,0.06,"for initalization"
+NA,"South Africa","KwaZulu-Natal","alpha","SR","normal","start",2020-03-16,2020-04-11,0.01,0.08,NA
+NA,"South Africa","KwaZulu-Natal","alpha","SR","extra.first2wk","wave1",2020-04-12,2020-09-15,0.02,0.12,"wt"
+NA,"South Africa","KwaZulu-Natal","alpha","SR","normal","wave2",2020-09-16,2021-05-15,0.03,0.12,"beta"
+NA,"South Africa","KwaZulu-Natal","alpha","SR","normal","wave3",2021-05-16,2021-09-30,0.03,0.12,"delta"
+NA,"South Africa","KwaZulu-Natal","alpha","SR","extra.allwks","wave4",2021-10-01,2022-12-31,0.01,0.08,"omicron, mixed with large number of prior infection and some vaccination to reduce severity among re-infection"
+NA,"South Africa","KwaZulu-Natal","alpha","DA",NA,"start",2020-01-01,2020-03-15,0.0075,0.12,NA
+NA,"South Africa","KwaZulu-Natal","alpha","DA",NA,"start",2020-03-16,2020-04-11,0.0075,0.2,NA
+NA,"South Africa","KwaZulu-Natal","alpha","DA",NA,"wave1",2020-04-12,2020-09-15,0.015,0.25,"wt"
+NA,"South Africa","KwaZulu-Natal","alpha","DA",NA,"wave2",2020-09-16,2021-05-15,0.02,0.25,"beta"
+NA,"South Africa","KwaZulu-Natal","alpha","DA",NA,"wave3",2021-05-16,2021-09-30,0.02,0.25,"delta"
+NA,"South Africa","KwaZulu-Natal","alpha","DA",NA,"wave4",2021-10-01,2022-12-31,0.01,0.3,"omicron"
+NA,"South Africa","KwaZulu-Natal","ifr","initialization",NA,"start",2020-01-01,2020-03-15,1e-04,0.003,NA
+NA,"South Africa","KwaZulu-Natal","ifr","SR","normal","start",2020-03-16,2020-04-11,1e-04,0.003,NA
+NA,"South Africa","KwaZulu-Natal","ifr","SR","extra.first2wk","wave1early",2020-04-12,2020-04-18,1e-04,0.003,NA
+NA,"South Africa","KwaZulu-Natal","ifr","SR","extra.first2wk","wave1wave2early",2020-04-19,2020-10-31,1e-04,0.005,"weeks with lower ifr"
+NA,"South Africa","KwaZulu-Natal","ifr","SR","extra.allwks","wave2late",2020-11-01,2021-05-15,1e-04,0.01,"some increase during peak beta wave"
+NA,"South Africa","KwaZulu-Natal","ifr","SR","extra.first2wk","wave3",2021-05-16,2021-09-30,1e-04,0.002,"looks low during delta wave, even cases are high, likely reduced ifr for reinfection"
+NA,"South Africa","KwaZulu-Natal","ifr","SR","EXTRA.first1wk","wave4",2021-10-01,2022-12-31,1e-05,0.00075,NA
+NA,"South Africa","KwaZulu-Natal","ifr","DA",NA,"start",2020-01-01,2020-04-11,1e-06,0.005,NA
+NA,"South Africa","KwaZulu-Natal","ifr","DA",NA,"wave1early",2020-04-12,2020-04-18,1e-06,0.005,NA
+NA,"South Africa","KwaZulu-Natal","ifr","DA",NA,"wave1wave2early",2020-04-19,2020-10-31,1e-05,0.01,NA
+NA,"South Africa","KwaZulu-Natal","ifr","DA",NA,"wave2late",2020-11-01,2021-05-15,1e-05,0.02,NA
+NA,"South Africa","KwaZulu-Natal","ifr","DA",NA,"wave3",2021-05-16,2021-09-30,1e-05,0.01,NA
+NA,"South Africa","KwaZulu-Natal","ifr","DA",NA,"wave4",2021-10-01,2022-12-31,1e-06,0.01,NA
+NA,"South Africa","KwaZulu-Natal","beta","initialization",NA,"start",NA,NA,0.4,0.7,NA
+NA,"South Africa","KwaZulu-Natal","beta","SR",NA,"start",2020-01-01,2020-03-15,0.4,0.7,NA
+NA,"South Africa","KwaZulu-Natal","beta","SR","normal","wave1",2020-03-16,2020-09-15,0.4,0.7,"wt"
+NA,"South Africa","KwaZulu-Natal","beta","SR","extra.first3wk","wave2",2020-09-16,2021-05-15,0.5,0.9,"beta"
+NA,"South Africa","KwaZulu-Natal","beta","SR","extra.first3wk","wave3",2021-05-16,2021-09-30,0.7,1.25,"delta"
+NA,"South Africa","KwaZulu-Natal","beta","SR","extra.first16wk","wave4",2021-10-01,2022-12-31,0.8,1.3,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","KwaZulu-Natal","beta","DA",NA,"start",2020-01-01,2020-03-15,0.2,1.4,NA
+NA,"South Africa","KwaZulu-Natal","beta","DA",NA,"wave1",2020-03-16,2020-09-15,0.2,1.4,"wt"
+NA,"South Africa","KwaZulu-Natal","beta","DA",NA,"wave2",2020-09-16,2021-05-15,0.2,1.8,"beta"
+NA,"South Africa","KwaZulu-Natal","beta","DA",NA,"wave3",2021-05-16,2021-09-30,0.2,2,"delta, lower upper bound to reduce uncertainty and skewness of estimate"
+NA,"South Africa","KwaZulu-Natal","beta","DA",NA,"wave4",2021-10-01,2022-12-31,0.2,2.5,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","KwaZulu-Natal","S","filtering",NA,"no.imm.escape",2020-01-01,2020-09-15,NA,NA,NA
+NA,"South Africa","KwaZulu-Natal","S","filtering",NA,"imm.escape",2020-09-16,2021-05-01,NA,NA,"beta"
+NA,"South Africa","KwaZulu-Natal","S","filtering",NA,"no.imm.escape",2021-05-02,2021-05-15,NA,NA,"beta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","KwaZulu-Natal","S","filtering",NA,"imm.escape",2021-05-16,2021-09-16,NA,NA,"delta"
+NA,"South Africa","KwaZulu-Natal","S","filtering",NA,"no.imm.escape",2021-09-17,2021-09-30,NA,NA,"delta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","KwaZulu-Natal","S","filtering",NA,"imm.escape",2021-10-01,2022-02-01,NA,NA,"omicron"
+NA,"South Africa","KwaZulu-Natal","S","filtering",NA,"no.imm.escape",2022-02-02,2022-12-31,NA,NA,"omicron"
+NA,"South Africa","KwaZulu-Natal","S","filtering",NA,"reset cntSR.S",2020-11-15,2020-11-21,NA,NA,"beta"
+NA,"South Africa","KwaZulu-Natal","S","filtering",NA,"reset cntSR.S",2021-05-16,2021-05-22,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","KwaZulu-Natal","S","filtering",NA,"reset cntSR.S",2021-10-15,2021-10-21,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","KwaZulu-Natal","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","KwaZulu-Natal","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","KwaZulu-Natal","variant-wildtype","variant characterization",NA,NA,2020-03-01,2020-09-15,NA,NA,NA
+NA,"South Africa","KwaZulu-Natal","variant-beta","variant characterization",NA,NA,2020-09-16,2021-05-15,NA,NA,NA
+NA,"South Africa","KwaZulu-Natal","variant-delta","variant characterization",NA,NA,2021-05-16,2021-09-30,NA,NA,NA
+NA,"South Africa","KwaZulu-Natal","variant-omicron","variant characterization",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","Limpopo","wave.start","wt",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Limpopo","wave.start","beta",NA,NA,2020-11-01,2021-05-15,NA,NA,NA
+NA,"South Africa","Limpopo","wave.start","delta",NA,NA,2021-05-16,2021-09-30,NA,NA,NA
+NA,"South Africa","Limpopo","wave.start","omicron",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","Limpopo","wk.start","initialization",NA,"start",2020-03-15,2020-03-15,NA,NA,"# first week of inference"
+NA,"South Africa","Limpopo","seed","initialization",NA,"start",2020-03-15,2020-03-15,0.02,0.02,NA
+NA,"South Africa","Limpopo","p.seed.max","initialization",NA,"start",2020-03-15,2020-03-15,10,10,"x case during 1st week"
+NA,"South Africa","Limpopo","pOEV","initialization",NA,"start",2020-03-15,2020-03-15,3,NA,NA
+NA,"South Africa","Limpopo","tm_largerVar","initialization",NA,"start",2020-03-15,2020-03-15,10,NA,NA
+NA,"South Africa","Limpopo","tighterOEV4death","initialization",NA,"start",2020-03-15,2020-03-15,0,NA,NA
+NA,"South Africa","Limpopo","VE1beta","initialization",NA,"start",2020-03-15,2020-03-15,0.2,NA,"# more Pfizer vaccines are used than JnJ, about 2:1, =0.85*2/3 + 0.6*1/3 = .76"
+NA,"South Africa","Limpopo","VE2beta","initialization",NA,"start",2020-03-15,2020-03-15,0.85,NA,"0.8666666666666667"
+NA,"South Africa","Limpopo","VE1delta","initialization",NA,"start",2020-03-15,2020-03-15,0.35,NA,NA
+NA,"South Africa","Limpopo","VE2delta","initialization",NA,"start",2020-03-15,2020-03-15,0.75,NA,"0.81"
+NA,"South Africa","Limpopo","Td.mean","initialization",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Limpopo","Td.mean","SR",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Limpopo","alpha","initialization",NA,"start",2020-01-01,2020-03-15,0.01,0.06,"for initalization"
+NA,"South Africa","Limpopo","alpha","SR","normal","start",2020-03-16,2020-04-11,0.01,0.06,NA
+NA,"South Africa","Limpopo","alpha","SR","extra.first2wk","wave1",2020-04-12,2020-10-31,0.01,0.08,"wt, lower dection rate"
+NA,"South Africa","Limpopo","alpha","SR","normal","wave2",2020-11-01,2021-05-15,0.01,0.1,"beta"
+NA,"South Africa","Limpopo","alpha","SR","normal","wave3",2021-05-16,2021-09-30,0.01,0.1,"delta"
+NA,"South Africa","Limpopo","alpha","SR","extra.allwks","wave4",2021-10-01,2022-12-31,0.01,0.08,"omicron, mixed with large number of prior infection and some vaccination to reduce severity among re-infection"
+NA,"South Africa","Limpopo","alpha","DA",NA,"start",2020-01-01,2020-03-15,0.0075,0.12,NA
+NA,"South Africa","Limpopo","alpha","DA",NA,"start",2020-03-16,2020-04-11,0.0075,0.2,NA
+NA,"South Africa","Limpopo","alpha","DA",NA,"wave1",2020-04-12,2020-10-31,0.01,0.25,"wt"
+NA,"South Africa","Limpopo","alpha","DA",NA,"wave2",2020-11-01,2021-05-15,0.01,0.25,"beta"
+NA,"South Africa","Limpopo","alpha","DA",NA,"wave3",2021-05-16,2021-09-30,0.01,0.25,"delta"
+NA,"South Africa","Limpopo","alpha","DA",NA,"wave4",2021-10-01,2022-12-31,0.01,0.3,"omicron"
+NA,"South Africa","Limpopo","ifr","initialization",NA,"start",2020-01-01,2020-03-15,1e-04,0.003,NA
+NA,"South Africa","Limpopo","ifr","SR","normal","start",2020-03-16,2020-04-11,1e-04,0.003,NA
+NA,"South Africa","Limpopo","ifr","SR","extra.first2wk","wave1early",2020-04-12,2020-04-18,1e-04,0.003,NA
+NA,"South Africa","Limpopo","ifr","SR","extra.first2wk","wave1wave2early",2020-04-19,2020-12-12,1e-04,0.003,"weeks with lower ifr"
+NA,"South Africa","Limpopo","ifr","SR","extra.first2wk","wave2late",2020-12-13,2021-05-15,1e-04,0.01,"some increase during peak beta wave"
+NA,"South Africa","Limpopo","ifr","SR","extra.first2wk","wave3",2021-05-16,2021-09-30,1e-04,0.005,"looks low during delta wave, even cases are high, likely reduced ifr for reinfection"
+NA,"South Africa","Limpopo","ifr","SR","EXTRA.first1wk","wave4",2021-10-01,2022-12-31,1e-05,0.002,NA
+NA,"South Africa","Limpopo","ifr","DA",NA,"start",2020-01-01,2020-04-11,1e-06,0.005,NA
+NA,"South Africa","Limpopo","ifr","DA",NA,"wave1early",2020-04-12,2020-04-18,1e-06,0.005,NA
+NA,"South Africa","Limpopo","ifr","DA",NA,"wave1wave2early",2020-04-19,2020-12-12,1e-05,0.01,NA
+NA,"South Africa","Limpopo","ifr","DA",NA,"wave2late",2020-12-13,2021-05-15,1e-05,0.02,NA
+NA,"South Africa","Limpopo","ifr","DA",NA,"wave3",2021-05-16,2021-09-30,1e-05,0.01,NA
+NA,"South Africa","Limpopo","ifr","DA",NA,"wave4",2021-10-01,2022-12-31,1e-06,0.01,NA
+NA,"South Africa","Limpopo","beta","initialization",NA,"start",NA,NA,0.4,0.7,NA
+NA,"South Africa","Limpopo","beta","SR",NA,"start",2020-01-01,2020-03-15,0.4,0.7,NA
+NA,"South Africa","Limpopo","beta","SR","normal","wave1",2020-03-16,2020-10-31,0.4,0.7,"wt"
+NA,"South Africa","Limpopo","beta","SR","extra.first3wk","wave2",2020-11-01,2021-05-15,0.5,0.9,"beta"
+NA,"South Africa","Limpopo","beta","SR","extra.first3wk","wave3",2021-05-16,2021-09-30,0.7,1.25,"delta"
+NA,"South Africa","Limpopo","beta","SR","extra.first16wk","wave4",2021-10-01,2022-12-31,0.8,1.3,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Limpopo","beta","DA",NA,"start",2020-01-01,2020-03-15,0.2,1.4,NA
+NA,"South Africa","Limpopo","beta","DA",NA,"wave1",2020-03-16,2020-10-31,0.2,1.4,"wt"
+NA,"South Africa","Limpopo","beta","DA",NA,"wave2",2020-11-01,2021-05-15,0.2,1.8,"beta"
+NA,"South Africa","Limpopo","beta","DA",NA,"wave3",2021-05-16,2021-09-30,0.2,2,"delta, lower upper bound to reduce uncertainty and skewness of estimate"
+NA,"South Africa","Limpopo","beta","DA",NA,"wave4",2021-10-01,2022-12-31,0.2,2.5,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Limpopo","S","filtering",NA,"no.imm.escape",2020-01-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Limpopo","S","filtering",NA,"imm.escape",2020-11-01,2021-05-01,NA,NA,"beta"
+NA,"South Africa","Limpopo","S","filtering",NA,"no.imm.escape",2021-05-02,2021-05-15,NA,NA,"beta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Limpopo","S","filtering",NA,"imm.escape",2021-05-16,2021-09-16,NA,NA,"delta"
+NA,"South Africa","Limpopo","S","filtering",NA,"no.imm.escape",2021-09-17,2021-09-30,NA,NA,"delta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Limpopo","S","filtering",NA,"imm.escape",2021-10-01,2022-02-01,NA,NA,"omicron"
+NA,"South Africa","Limpopo","S","filtering",NA,"no.imm.escape",2022-02-02,2022-12-31,NA,NA,"omicron"
+NA,"South Africa","Limpopo","S","filtering",NA,"reset cntSR.S",2020-11-29,2020-12-05,NA,NA,"beta"
+NA,"South Africa","Limpopo","S","filtering",NA,"reset cntSR.S",2021-05-16,2021-05-22,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Limpopo","S","filtering",NA,"reset cntSR.S",2021-10-15,2021-10-21,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Limpopo","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Limpopo","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Limpopo","variant-wildtype","variant characterization",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Limpopo","variant-beta","variant characterization",NA,NA,2020-11-01,2021-05-15,NA,NA,NA
+NA,"South Africa","Limpopo","variant-delta","variant characterization",NA,NA,2021-05-16,2021-09-30,NA,NA,NA
+NA,"South Africa","Limpopo","variant-omicron","variant characterization",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","Mpumalanga","wave.start","wt",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Mpumalanga","wave.start","beta",NA,NA,2020-11-01,2021-05-15,NA,NA,NA
+NA,"South Africa","Mpumalanga","wave.start","delta",NA,NA,2021-05-16,2021-09-30,NA,NA,NA
+NA,"South Africa","Mpumalanga","wave.start","omicron",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","Mpumalanga","wk.start","initialization",NA,"start",2020-03-15,2020-03-15,NA,NA,"# first week of inference"
+NA,"South Africa","Mpumalanga","seed","initialization",NA,"start",2020-03-15,2020-03-15,0.02,0.02,NA
+NA,"South Africa","Mpumalanga","p.seed.max","initialization",NA,"start",2020-03-15,2020-03-15,10,10,"x case during 1st week"
+NA,"South Africa","Mpumalanga","pOEV","initialization",NA,"start",2020-03-15,2020-03-15,3,NA,NA
+NA,"South Africa","Mpumalanga","tm_largerVar","initialization",NA,"start",2020-03-15,2020-03-15,10,NA,NA
+NA,"South Africa","Mpumalanga","tighterOEV4death","initialization",NA,"start",2020-03-15,2020-03-15,0,NA,NA
+NA,"South Africa","Mpumalanga","VE1beta","initialization",NA,"start",2020-03-15,2020-03-15,0.2,NA,"# more Pfizer vaccines are used than JnJ, about 2:1, =0.85*2/3 + 0.6*1/3 = .76"
+NA,"South Africa","Mpumalanga","VE2beta","initialization",NA,"start",2020-03-15,2020-03-15,0.85,NA,"0.8666666666666667"
+NA,"South Africa","Mpumalanga","VE1delta","initialization",NA,"start",2020-03-15,2020-03-15,0.35,NA,NA
+NA,"South Africa","Mpumalanga","VE2delta","initialization",NA,"start",2020-03-15,2020-03-15,0.75,NA,"0.81"
+NA,"South Africa","Mpumalanga","Td.mean","initialization",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Mpumalanga","Td.mean","SR",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Mpumalanga","alpha","initialization",NA,"start",2020-01-01,2020-03-15,0.01,0.06,"for initalization"
+NA,"South Africa","Mpumalanga","alpha","SR","normal","start",2020-03-16,2020-04-11,0.01,0.08,NA
+NA,"South Africa","Mpumalanga","alpha","SR","extra.first2wk","wave1",2020-04-12,2020-10-31,0.02,0.12,"wt"
+NA,"South Africa","Mpumalanga","alpha","SR","normal","wave2",2020-11-01,2021-05-15,0.03,0.12,"beta"
+NA,"South Africa","Mpumalanga","alpha","SR","normal","wave3",2021-05-16,2021-09-30,0.03,0.12,"delta"
+NA,"South Africa","Mpumalanga","alpha","SR","extra.allwks","wave4",2021-10-01,2022-12-31,0.01,0.08,"omicron, mixed with large number of prior infection and some vaccination to reduce severity among re-infection"
+NA,"South Africa","Mpumalanga","alpha","DA",NA,"start",2020-01-01,2020-03-15,0.0075,0.12,NA
+NA,"South Africa","Mpumalanga","alpha","DA",NA,"start",2020-03-16,2020-04-11,0.0075,0.2,NA
+NA,"South Africa","Mpumalanga","alpha","DA",NA,"wave1",2020-04-12,2020-10-31,0.01,0.25,"wt"
+NA,"South Africa","Mpumalanga","alpha","DA",NA,"wave2",2020-11-01,2021-05-15,0.01,0.25,"beta"
+NA,"South Africa","Mpumalanga","alpha","DA",NA,"wave3",2021-05-16,2021-09-30,0.01,0.25,"delta"
+NA,"South Africa","Mpumalanga","alpha","DA",NA,"wave4",2021-10-01,2022-12-31,0.01,0.3,"omicron"
+NA,"South Africa","Mpumalanga","ifr","initialization",NA,"start",2020-01-01,2020-03-15,1e-04,0.003,NA
+NA,"South Africa","Mpumalanga","ifr","SR","normal","start",2020-03-16,2020-04-11,1e-04,0.003,NA
+NA,"South Africa","Mpumalanga","ifr","SR","extra.first2wk","wave1early",2020-04-12,2020-04-18,1e-04,0.003,NA
+NA,"South Africa","Mpumalanga","ifr","SR","extra.first2wk","wave1wave2early",2020-04-19,2020-12-12,1e-04,0.003,"weeks with lower ifr"
+NA,"South Africa","Mpumalanga","ifr","SR","extra.first2wk","wave2late",2020-12-13,2021-05-15,1e-04,0.005,"some increase during peak beta wave"
+NA,"South Africa","Mpumalanga","ifr","SR","extra.first2wk","wave3",2021-05-16,2021-09-30,1e-04,0.003,"looks low during delta wave, even cases are high, likely reduced ifr for reinfection"
+NA,"South Africa","Mpumalanga","ifr","SR","EXTRA.first1wk","wave4",2021-10-01,2022-12-31,1e-05,0.002,NA
+NA,"South Africa","Mpumalanga","ifr","DA",NA,"start",2020-01-01,2020-04-11,1e-06,0.005,NA
+NA,"South Africa","Mpumalanga","ifr","DA",NA,"wave1early",2020-04-12,2020-04-18,1e-06,0.005,NA
+NA,"South Africa","Mpumalanga","ifr","DA",NA,"wave1wave2early",2020-04-19,2020-12-12,1e-05,0.01,NA
+NA,"South Africa","Mpumalanga","ifr","DA",NA,"wave2late",2020-12-13,2021-05-15,1e-05,0.02,NA
+NA,"South Africa","Mpumalanga","ifr","DA",NA,"wave3",2021-05-16,2021-09-30,1e-05,0.01,NA
+NA,"South Africa","Mpumalanga","ifr","DA",NA,"wave4",2021-10-01,2022-12-31,1e-06,0.01,NA
+NA,"South Africa","Mpumalanga","beta","initialization",NA,"start",NA,NA,0.4,0.7,NA
+NA,"South Africa","Mpumalanga","beta","SR",NA,"start",2020-01-01,2020-03-15,0.4,0.7,NA
+NA,"South Africa","Mpumalanga","beta","SR","normal","wave1",2020-03-16,2020-10-31,0.4,0.7,"wt"
+NA,"South Africa","Mpumalanga","beta","SR","extra.first3wk","wave2",2020-11-01,2021-05-15,0.5,0.9,"beta"
+NA,"South Africa","Mpumalanga","beta","SR","extra.first3wk","wave3",2021-05-16,2021-09-30,0.7,1.25,"delta"
+NA,"South Africa","Mpumalanga","beta","SR","extra.first16wk","wave4",2021-10-01,2022-12-31,0.8,1.3,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Mpumalanga","beta","DA",NA,"start",2020-01-01,2020-03-15,0.2,1.4,NA
+NA,"South Africa","Mpumalanga","beta","DA",NA,"wave1",2020-03-16,2020-10-31,0.2,1.4,"wt"
+NA,"South Africa","Mpumalanga","beta","DA",NA,"wave2",2020-11-01,2021-05-15,0.2,1.8,"beta"
+NA,"South Africa","Mpumalanga","beta","DA",NA,"wave3",2021-05-16,2021-09-30,0.2,2,"delta, lower upper bound to reduce uncertainty and skewness of estimate"
+NA,"South Africa","Mpumalanga","beta","DA",NA,"wave4",2021-10-01,2022-12-31,0.2,2.5,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Mpumalanga","S","filtering",NA,"no.imm.escape",2020-01-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Mpumalanga","S","filtering",NA,"imm.escape",2020-11-01,2021-05-01,NA,NA,"beta"
+NA,"South Africa","Mpumalanga","S","filtering",NA,"no.imm.escape",2021-05-02,2021-05-15,NA,NA,"beta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Mpumalanga","S","filtering",NA,"imm.escape",2021-05-16,2021-09-16,NA,NA,"delta"
+NA,"South Africa","Mpumalanga","S","filtering",NA,"no.imm.escape",2021-09-17,2021-09-30,NA,NA,"delta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Mpumalanga","S","filtering",NA,"imm.escape",2021-10-01,2022-02-01,NA,NA,"omicron"
+NA,"South Africa","Mpumalanga","S","filtering",NA,"no.imm.escape",2022-02-02,2022-12-31,NA,NA,"omicron"
+NA,"South Africa","Mpumalanga","S","filtering",NA,"reset cntSR.S",2020-11-29,2020-12-05,NA,NA,"beta"
+NA,"South Africa","Mpumalanga","S","filtering",NA,"reset cntSR.S",2021-05-16,2021-05-22,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Mpumalanga","S","filtering",NA,"reset cntSR.S",2021-10-15,2021-10-21,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Mpumalanga","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Mpumalanga","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Mpumalanga","variant-wildtype","variant characterization",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Mpumalanga","variant-beta","variant characterization",NA,NA,2020-11-01,2021-05-15,NA,NA,NA
+NA,"South Africa","Mpumalanga","variant-delta","variant characterization",NA,NA,2021-05-16,2021-09-30,NA,NA,NA
+NA,"South Africa","Mpumalanga","variant-omicron","variant characterization",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","North West","wave.start","wt",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","North West","wave.start","beta",NA,NA,2020-11-01,2021-05-15,NA,NA,NA
+NA,"South Africa","North West","wave.start","delta",NA,NA,2021-05-16,2021-09-30,NA,NA,NA
+NA,"South Africa","North West","wave.start","omicron",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","North West","wk.start","initialization",NA,"start",2020-03-15,2020-03-15,NA,NA,"# first week of inference"
+NA,"South Africa","North West","seed","initialization",NA,"start",2020-03-15,2020-03-15,0.02,0.02,NA
+NA,"South Africa","North West","p.seed.max","initialization",NA,"start",2020-03-15,2020-03-15,10,10,"x case during 1st week"
+NA,"South Africa","North West","pOEV","initialization",NA,"start",2020-03-15,2020-03-15,3,NA,NA
+NA,"South Africa","North West","tm_largerVar","initialization",NA,"start",2020-03-15,2020-03-15,10,NA,NA
+NA,"South Africa","North West","tighterOEV4death","initialization",NA,"start",2020-03-15,2020-03-15,0,NA,NA
+NA,"South Africa","North West","VE1beta","initialization",NA,"start",2020-03-15,2020-03-15,0.2,NA,"# more Pfizer vaccines are used than JnJ, about 2:1, =0.85*2/3 + 0.6*1/3 = .76"
+NA,"South Africa","North West","VE2beta","initialization",NA,"start",2020-03-15,2020-03-15,0.85,NA,"0.8666666666666667"
+NA,"South Africa","North West","VE1delta","initialization",NA,"start",2020-03-15,2020-03-15,0.35,NA,NA
+NA,"South Africa","North West","VE2delta","initialization",NA,"start",2020-03-15,2020-03-15,0.75,NA,"0.81"
+NA,"South Africa","North West","Td.mean","initialization",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","North West","Td.mean","SR",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","North West","alpha","initialization",NA,"start",2020-01-01,2020-03-15,0.01,0.06,"for initalization"
+NA,"South Africa","North West","alpha","SR","normal","start",2020-03-16,2020-04-11,0.01,0.06,NA
+NA,"South Africa","North West","alpha","SR","extra.first2wk","wave1",2020-04-12,2020-10-31,0.02,0.1,"wt"
+NA,"South Africa","North West","alpha","SR","normal","wave2",2020-11-01,2021-05-15,0.03,0.12,"beta"
+NA,"South Africa","North West","alpha","SR","normal","wave3",2021-05-16,2021-09-30,0.03,0.12,"delta"
+NA,"South Africa","North West","alpha","SR","extra.allwks","wave4",2021-10-01,2022-12-31,0.01,0.08,"omicron, mixed with large number of prior infection and some vaccination to reduce severity among re-infection"
+NA,"South Africa","North West","alpha","DA",NA,"start",2020-01-01,2020-03-15,0.0075,0.12,NA
+NA,"South Africa","North West","alpha","DA",NA,"start",2020-03-16,2020-04-11,0.0075,0.2,NA
+NA,"South Africa","North West","alpha","DA",NA,"wave1",2020-04-12,2020-10-31,0.01,0.25,"wt"
+NA,"South Africa","North West","alpha","DA",NA,"wave2",2020-11-01,2021-05-15,0.01,0.25,"beta"
+NA,"South Africa","North West","alpha","DA",NA,"wave3",2021-05-16,2021-09-30,0.02,0.25,"delta"
+NA,"South Africa","North West","alpha","DA",NA,"wave4",2021-10-01,2022-12-31,0.01,0.3,"omicron"
+NA,"South Africa","North West","ifr","initialization",NA,"start",2020-01-01,2020-03-15,1e-04,0.003,NA
+NA,"South Africa","North West","ifr","SR","normal","start",2020-03-16,2020-04-11,1e-04,0.003,NA
+NA,"South Africa","North West","ifr","SR","extra.first2wk","wave1early",2020-04-12,2020-04-18,1e-04,0.003,NA
+NA,"South Africa","North West","ifr","SR","extra.first2wk","wave1wave2early",2020-04-19,2020-12-12,1e-04,0.003,"weeks with lower ifr"
+NA,"South Africa","North West","ifr","SR","extra.first2wk","wave2late",2020-12-13,2021-05-15,1e-04,0.005,"some increase during peak beta wave"
+NA,"South Africa","North West","ifr","SR","extra.first2wk","wave3",2021-05-16,2021-09-30,1e-04,0.003,"looks low during delta wave, even cases are high, likely reduced ifr for reinfection"
+NA,"South Africa","North West","ifr","SR","EXTRA.first1wk","wave4",2021-10-01,2022-12-31,1e-05,0.0015,NA
+NA,"South Africa","North West","ifr","DA",NA,"start",2020-01-01,2020-04-11,1e-06,0.005,NA
+NA,"South Africa","North West","ifr","DA",NA,"wave1early",2020-04-12,2020-04-18,1e-06,0.005,NA
+NA,"South Africa","North West","ifr","DA",NA,"wave1wave2early",2020-04-19,2020-12-12,1e-05,0.01,NA
+NA,"South Africa","North West","ifr","DA",NA,"wave2late",2020-12-13,2021-05-15,1e-05,0.02,NA
+NA,"South Africa","North West","ifr","DA",NA,"wave3",2021-05-16,2021-09-30,1e-05,0.01,NA
+NA,"South Africa","North West","ifr","DA",NA,"wave4",2021-10-01,2022-12-31,1e-06,0.01,NA
+NA,"South Africa","North West","beta","initialization",NA,"start",NA,NA,0.4,0.7,NA
+NA,"South Africa","North West","beta","SR",NA,"start",2020-01-01,2020-03-15,0.4,0.7,NA
+NA,"South Africa","North West","beta","SR","normal","wave1",2020-03-16,2020-10-31,0.4,0.7,"wt"
+NA,"South Africa","North West","beta","SR","extra.first3wk","wave2",2020-11-01,2021-05-15,0.5,0.9,"beta"
+NA,"South Africa","North West","beta","SR","extra.first3wk","wave3",2021-05-16,2021-09-30,0.7,1.25,"delta"
+NA,"South Africa","North West","beta","SR","extra.first16wk","wave4",2021-10-01,2022-12-31,0.8,1.3,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","North West","beta","DA",NA,"start",2020-01-01,2020-03-15,0.2,1.4,NA
+NA,"South Africa","North West","beta","DA",NA,"wave1",2020-03-16,2020-10-31,0.2,1.4,"wt"
+NA,"South Africa","North West","beta","DA",NA,"wave2",2020-11-01,2021-05-15,0.2,1.8,"beta"
+NA,"South Africa","North West","beta","DA",NA,"wave3",2021-05-16,2021-09-30,0.2,2,"delta, lower upper bound to reduce uncertainty and skewness of estimate"
+NA,"South Africa","North West","beta","DA",NA,"wave4",2021-10-01,2022-12-31,0.2,2.5,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","North West","S","filtering",NA,"no.imm.escape",2020-01-01,2020-10-31,NA,NA,NA
+NA,"South Africa","North West","S","filtering",NA,"imm.escape",2020-11-01,2021-05-01,NA,NA,"beta"
+NA,"South Africa","North West","S","filtering",NA,"no.imm.escape",2021-05-02,2021-05-15,NA,NA,"beta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","North West","S","filtering",NA,"imm.escape",2021-05-16,2021-09-16,NA,NA,"delta"
+NA,"South Africa","North West","S","filtering",NA,"no.imm.escape",2021-09-17,2021-09-30,NA,NA,"delta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","North West","S","filtering",NA,"imm.escape",2021-10-01,2022-02-01,NA,NA,"omicron"
+NA,"South Africa","North West","S","filtering",NA,"no.imm.escape",2022-02-02,2022-12-31,NA,NA,"omicron"
+NA,"South Africa","North West","S","filtering",NA,"reset cntSR.S",2020-11-29,2020-12-05,NA,NA,"beta"
+NA,"South Africa","North West","S","filtering",NA,"reset cntSR.S",2021-05-16,2021-05-22,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","North West","S","filtering",NA,"reset cntSR.S",2021-10-15,2021-10-21,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","North West","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","North West","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","North West","variant-wildtype","variant characterization",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","North West","variant-beta","variant characterization",NA,NA,2020-11-01,2021-05-15,NA,NA,NA
+NA,"South Africa","North West","variant-delta","variant characterization",NA,NA,2021-05-16,2021-09-30,NA,NA,NA
+NA,"South Africa","North West","variant-omicron","variant characterization",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","Northern Cape","wave.start","wt",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Northern Cape","wave.start","beta",NA,NA,2020-11-01,2021-05-15,NA,NA,"earlier beta wave, but not as early"
+NA,"South Africa","Northern Cape","wave.start","delta",NA,NA,2021-05-16,2021-09-30,NA,NA,"later delta wave"
+NA,"South Africa","Northern Cape","wave.start","omicron",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","Northern Cape","wk.start","initialization",NA,"start",2020-03-15,2020-03-15,NA,NA,"# first week of inference"
+NA,"South Africa","Northern Cape","seed","initialization",NA,"start",2020-03-15,2020-03-15,0.02,0.02,NA
+NA,"South Africa","Northern Cape","p.seed.max","initialization",NA,"start",2020-03-15,2020-03-15,10,10,"x case during 1st week"
+NA,"South Africa","Northern Cape","pOEV","initialization",NA,"start",2020-03-15,2020-03-15,3,NA,NA
+NA,"South Africa","Northern Cape","tm_largerVar","initialization",NA,"start",2020-03-15,2020-03-15,20,NA,NA
+NA,"South Africa","Northern Cape","tighterOEV4death","initialization",NA,"start",2020-03-15,2020-03-15,0,NA,NA
+NA,"South Africa","Northern Cape","VE1beta","initialization",NA,"start",2020-03-15,2020-03-15,0.2,NA,"# more Pfizer vaccines are used than JnJ, about 2:1, =0.85*2/3 + 0.6*1/3 = .76"
+NA,"South Africa","Northern Cape","VE2beta","initialization",NA,"start",2020-03-15,2020-03-15,0.85,NA,"0.8666666666666667"
+NA,"South Africa","Northern Cape","VE1delta","initialization",NA,"start",2020-03-15,2020-03-15,0.35,NA,NA
+NA,"South Africa","Northern Cape","VE2delta","initialization",NA,"start",2020-03-15,2020-03-15,0.75,NA,"0.81"
+NA,"South Africa","Northern Cape","Td.mean","initialization",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Northern Cape","Td.mean","SR",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Northern Cape","alpha","initialization",NA,"start",2020-01-01,2020-03-15,0.01,0.06,"for initalization"
+NA,"South Africa","Northern Cape","alpha","SR","normal","start",2020-03-16,2020-04-11,0.01,0.08,NA
+NA,"South Africa","Northern Cape","alpha","SR","extra.first2wk","wave1",2020-04-12,2020-10-31,0.02,0.12,"wt"
+NA,"South Africa","Northern Cape","alpha","SR","normal","wave2",2020-11-01,2021-05-15,0.03,0.12,"beta"
+NA,"South Africa","Northern Cape","alpha","SR","normal","wave3",2021-05-16,2021-09-30,0.03,0.12,"delta"
+NA,"South Africa","Northern Cape","alpha","SR","extra.allwks","wave4",2021-10-01,2022-12-31,0.01,0.08,"omicron, mixed with large number of prior infection and some vaccination to reduce severity among re-infection"
+NA,"South Africa","Northern Cape","alpha","DA",NA,"start",2020-01-01,2020-03-15,0.0075,0.12,NA
+NA,"South Africa","Northern Cape","alpha","DA",NA,"start",2020-03-16,2020-04-11,0.0075,0.2,NA
+NA,"South Africa","Northern Cape","alpha","DA",NA,"wave1",2020-04-12,2020-10-31,0.015,0.25,"wt"
+NA,"South Africa","Northern Cape","alpha","DA",NA,"wave2",2020-11-01,2021-05-15,0.02,0.25,"beta"
+NA,"South Africa","Northern Cape","alpha","DA",NA,"wave3",2021-05-16,2021-09-30,0.02,0.25,"delta"
+NA,"South Africa","Northern Cape","alpha","DA",NA,"wave4",2021-10-01,2022-12-31,0.01,0.3,"omicron"
+NA,"South Africa","Northern Cape","ifr","initialization",NA,"start",2020-01-01,2020-03-15,1e-04,0.003,"somehow high cfr throughout the pandmeic"
+NA,"South Africa","Northern Cape","ifr","SR","normal","start",2020-03-16,2020-04-11,1e-04,0.003,NA
+NA,"South Africa","Northern Cape","ifr","SR","extra.first2wk","wave1early",2020-04-12,2020-04-18,1e-04,0.003,NA
+NA,"South Africa","Northern Cape","ifr","SR","extra.first2wk","wave1wave2early",2020-04-19,2020-12-12,1e-04,0.003,"weeks with lower ifr"
+NA,"South Africa","Northern Cape","ifr","SR","extra.first2wk","wave2late",2020-12-13,2021-05-15,1e-04,0.005,"some increase during peak beta wave"
+NA,"South Africa","Northern Cape","ifr","SR","extra.first2wk","wave3",2021-05-16,2021-09-30,1e-04,0.003,"looks low during delta wave, even cases are high, likely reduced ifr for reinfection"
+NA,"South Africa","Northern Cape","ifr","SR","EXTRA.first1wk","wave4",2021-10-01,2022-12-31,1e-05,0.0015,NA
+NA,"South Africa","Northern Cape","ifr","DA",NA,"start",2020-01-01,2020-04-11,1e-06,0.005,NA
+NA,"South Africa","Northern Cape","ifr","DA",NA,"wave1early",2020-04-12,2020-04-18,1e-06,0.005,NA
+NA,"South Africa","Northern Cape","ifr","DA",NA,"wave1wave2early",2020-04-19,2020-12-12,1e-05,0.01,NA
+NA,"South Africa","Northern Cape","ifr","DA",NA,"wave2late",2020-12-13,2021-05-15,1e-05,0.02,NA
+NA,"South Africa","Northern Cape","ifr","DA",NA,"wave3",2021-05-16,2021-09-30,1e-05,0.01,NA
+NA,"South Africa","Northern Cape","ifr","DA",NA,"wave4",2021-10-01,2022-12-31,1e-06,0.01,NA
+NA,"South Africa","Northern Cape","beta","initialization",NA,"start",NA,NA,0.4,0.7,NA
+NA,"South Africa","Northern Cape","beta","SR",NA,"start",2020-01-01,2020-03-15,0.4,0.7,NA
+NA,"South Africa","Northern Cape","beta","SR","normal","wave1",2020-03-16,2020-10-31,0.4,0.7,"wt"
+NA,"South Africa","Northern Cape","beta","SR","extra.first3wk","wave2",2020-11-01,2021-05-15,0.5,0.9,"beta"
+NA,"South Africa","Northern Cape","beta","SR","extra.first3wk","wave3",2021-05-16,2021-09-30,0.7,1.25,"delta"
+NA,"South Africa","Northern Cape","beta","SR","extra.first16wk","wave4",2021-10-01,2022-12-31,0.8,1.3,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Northern Cape","beta","DA",NA,"start",2020-01-01,2020-03-15,0.2,1.4,NA
+NA,"South Africa","Northern Cape","beta","DA",NA,"wave1",2020-03-16,2020-10-31,0.2,1.4,"wt"
+NA,"South Africa","Northern Cape","beta","DA",NA,"wave2",2020-11-01,2021-05-15,0.2,1.8,"beta"
+NA,"South Africa","Northern Cape","beta","DA",NA,"wave3",2021-05-16,2021-09-30,0.2,2,"delta, lower upper bound to reduce uncertainty and skewness of estimate"
+NA,"South Africa","Northern Cape","beta","DA",NA,"wave4",2021-10-01,2022-12-31,0.2,2.5,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Northern Cape","S","filtering",NA,"no.imm.escape",2020-01-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Northern Cape","S","filtering",NA,"imm.escape",2020-11-01,2021-05-01,NA,NA,"beta"
+NA,"South Africa","Northern Cape","S","filtering",NA,"no.imm.escape",2021-05-02,2021-05-15,NA,NA,"beta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Northern Cape","S","filtering",NA,"imm.escape",2021-05-16,2021-09-16,NA,NA,"delta"
+NA,"South Africa","Northern Cape","S","filtering",NA,"no.imm.escape",2021-09-17,2021-09-30,NA,NA,"delta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Northern Cape","S","filtering",NA,"imm.escape",2021-10-01,2022-02-01,NA,NA,"omicron"
+NA,"South Africa","Northern Cape","S","filtering",NA,"no.imm.escape",2022-02-02,2022-12-31,NA,NA,"omicron"
+NA,"South Africa","Northern Cape","S","filtering",NA,"reset cntSR.S",2020-12-07,2020-12-13,NA,NA,"beta"
+NA,"South Africa","Northern Cape","S","filtering",NA,"reset cntSR.S",2021-05-16,2021-05-22,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Northern Cape","S","filtering",NA,"reset cntSR.S",2021-11-01,2021-11-07,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Northern Cape","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Northern Cape","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Northern Cape","variant-wildtype","variant characterization",NA,NA,2020-03-01,2020-10-31,NA,NA,NA
+NA,"South Africa","Northern Cape","variant-beta","variant characterization",NA,NA,2020-11-01,2021-05-15,NA,NA,NA
+NA,"South Africa","Northern Cape","variant-delta","variant characterization",NA,NA,2021-05-16,2021-09-30,NA,NA,NA
+NA,"South Africa","Northern Cape","variant-omicron","variant characterization",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","Western Cape","wave.start","wt",NA,NA,2020-03-01,2020-09-15,NA,NA,NA
+NA,"South Africa","Western Cape","wave.start","beta",NA,NA,2020-09-16,2021-05-15,NA,NA,"earlier beta wave, Tegally et al. Nature"
+NA,"South Africa","Western Cape","wave.start","delta",NA,NA,2021-05-16,2021-09-30,NA,NA,NA
+NA,"South Africa","Western Cape","wave.start","omicron",NA,NA,2021-10-01,2022-12-31,NA,NA,NA
+NA,"South Africa","Western Cape","wk.start","initialization",NA,"start",2020-03-15,2020-03-15,NA,NA,"# first week of inference"
+NA,"South Africa","Western Cape","seed","initialization",NA,"start",2020-03-15,2020-03-15,0.05,0.05,NA
+NA,"South Africa","Western Cape","p.seed.max","initialization",NA,"start",2020-03-15,2020-03-15,500,500,"x case during 1st week"
+NA,"South Africa","Western Cape","pOEV","initialization",NA,"start",2020-03-15,2020-03-15,3,NA,NA
+NA,"South Africa","Western Cape","tm_largerVar","initialization",NA,"start",2020-03-15,2020-03-15,3,NA,NA
+NA,"South Africa","Western Cape","tighterOEV4death","initialization",NA,"start",2020-03-15,2020-03-15,0,NA,NA
+NA,"South Africa","Western Cape","VE1beta","initialization",NA,"start",2020-03-15,2020-03-15,0.2,NA,"# more Pfizer vaccines are used than JnJ, about 2:1, =0.85*2/3 + 0.6*1/3 = .76"
+NA,"South Africa","Western Cape","VE2beta","initialization",NA,"start",2020-03-15,2020-03-15,0.85,NA,"0.8666666666666667"
+NA,"South Africa","Western Cape","VE1delta","initialization",NA,"start",2020-03-15,2020-03-15,0.35,NA,NA
+NA,"South Africa","Western Cape","VE2delta","initialization",NA,"start",2020-03-15,2020-03-15,0.75,NA,"0.81"
+NA,"South Africa","Western Cape","Td.mean","initialization",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Western Cape","Td.mean","SR",NA,"start",2020-03-15,2020-03-15,5,8,NA
+NA,"South Africa","Western Cape","alpha","initialization",NA,"start",2020-01-01,2020-03-15,0.001,0.01,"for initalization"
+NA,"South Africa","Western Cape","alpha","SR","normal","start",2020-03-16,2020-04-18,0.001,0.01,"looks low in early weeks"
+NA,"South Africa","Western Cape","alpha","SR","EXTRA.first1wk","wave1",2020-04-19,2020-09-15,0.02,0.12,"wt"
+NA,"South Africa","Western Cape","alpha","SR","normal","wave2",2020-09-16,2021-05-15,0.03,0.12,"beta"
+NA,"South Africa","Western Cape","alpha","SR","normal","wave3",2021-05-16,2021-09-30,0.03,0.12,"delta"
+NA,"South Africa","Western Cape","alpha","SR","extra.allwks","wave4",2021-10-01,2022-12-31,0.01,0.08,"omicron, mixed with large number of prior infection and some vaccination to reduce severity among re-infection"
+NA,"South Africa","Western Cape","alpha","DA",NA,"start",2020-01-01,2020-03-15,1e-04,0.02,NA
+NA,"South Africa","Western Cape","alpha","DA",NA,"start",2020-03-16,2020-04-18,1e-04,0.02,NA
+NA,"South Africa","Western Cape","alpha","DA",NA,"wave1",2020-04-19,2020-09-15,0.015,0.25,"wt"
+NA,"South Africa","Western Cape","alpha","DA",NA,"wave2",2020-09-16,2021-05-15,0.02,0.25,"beta"
+NA,"South Africa","Western Cape","alpha","DA",NA,"wave3",2021-05-16,2021-09-30,0.02,0.25,"delta"
+NA,"South Africa","Western Cape","alpha","DA",NA,"wave4",2021-10-01,2022-12-31,0.01,0.3,"omicron"
+NA,"South Africa","Western Cape","ifr","initialization",NA,"start",2020-01-01,2020-03-15,1e-05,0.003,NA
+NA,"South Africa","Western Cape","ifr","SR","normal","start",2020-03-16,2020-04-11,1e-05,0.003,NA
+NA,"South Africa","Western Cape","ifr","SR","EXTRA.first1wk","wave1early",2020-04-12,2020-04-18,1e-05,0.003,NA
+NA,"South Africa","Western Cape","ifr","SR","extra.first2wk","wave1wave2early",2020-04-19,2020-10-31,1e-05,0.004,"weeks with lower ifr"
+NA,"South Africa","Western Cape","ifr","SR","extra.first2wk","wave2late",2020-11-01,2021-05-15,1e-05,0.01,"some increase during peak beta wave"
+NA,"South Africa","Western Cape","ifr","SR","extra.first2wk","wave3",2021-05-16,2021-09-30,1e-05,0.005,"looks low during delta wave, even cases are high, likely reduced ifr for reinfection"
+NA,"South Africa","Western Cape","ifr","SR","EXTRA.first1wk","wave4",2021-10-01,2022-12-31,1e-05,0.002,NA
+NA,"South Africa","Western Cape","ifr","DA",NA,"start",2020-01-01,2020-04-11,1e-06,0.005,NA
+NA,"South Africa","Western Cape","ifr","DA",NA,"wave1early",2020-04-12,2020-04-18,1e-06,0.005,NA
+NA,"South Africa","Western Cape","ifr","DA",NA,"wave1wave2early",2020-04-19,2020-10-31,1e-05,0.01,NA
+NA,"South Africa","Western Cape","ifr","DA",NA,"wave2late",2020-11-01,2021-05-15,1e-05,0.02,NA
+NA,"South Africa","Western Cape","ifr","DA",NA,"wave3",2021-05-16,2021-09-30,1e-05,0.01,NA
+NA,"South Africa","Western Cape","ifr","DA",NA,"wave4",2021-10-01,2022-12-31,1e-06,0.01,NA
+NA,"South Africa","Western Cape","beta","initialization",NA,"start",NA,NA,0.4,0.7,NA
+NA,"South Africa","Western Cape","beta","SR",NA,"start",2020-01-01,2020-03-15,0.4,0.7,NA
+NA,"South Africa","Western Cape","beta","SR","normal","wave1",2020-03-16,2020-09-29,0.4,0.7,"wt"
+NA,"South Africa","Western Cape","beta","SR","extra.first8wk","wave2",2020-09-30,2021-05-15,0.5,0.9,"beta, seems to have much longer lead up to the large surge (testing showed 8 weeks helps)"
+NA,"South Africa","Western Cape","beta","SR","extra.first3wk","wave3",2021-05-16,2021-09-30,0.7,1.25,"delta"
+NA,"South Africa","Western Cape","beta","SR","extra.first16wk","wave4",2021-10-01,2022-12-31,0.8,1.3,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Western Cape","beta","DA",NA,"start",2020-01-01,2020-03-15,0.2,1.4,NA
+NA,"South Africa","Western Cape","beta","DA",NA,"wave1",2020-03-16,2020-09-15,0.2,1.4,"wt"
+NA,"South Africa","Western Cape","beta","DA",NA,"wave2",2020-09-16,2021-05-15,0.2,1.8,"beta"
+NA,"South Africa","Western Cape","beta","DA",NA,"wave3",2021-05-16,2021-09-30,0.2,2,"delta, lower upper bound to reduce uncertainty and skewness of estimate"
+NA,"South Africa","Western Cape","beta","DA",NA,"wave4",2021-10-01,2022-12-31,0.2,2.5,"omicron, mixed with large number of prior infection and some vaccination to reduce tx rate among re-infection"
+NA,"South Africa","Western Cape","S","filtering",NA,"no.imm.escape",2020-01-01,2020-09-15,NA,NA,NA
+NA,"South Africa","Western Cape","S","filtering",NA,"imm.escape",2020-09-16,2021-05-01,NA,NA,"beta"
+NA,"South Africa","Western Cape","S","filtering",NA,"no.imm.escape",2021-05-02,2021-05-15,NA,NA,"beta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Western Cape","S","filtering",NA,"imm.escape",2021-05-16,2021-09-16,NA,NA,"delta"
+NA,"South Africa","Western Cape","S","filtering",NA,"no.imm.escape",2021-09-17,2021-09-30,NA,NA,"delta, give it a break to detect the next imm evasive wave"
+NA,"South Africa","Western Cape","S","filtering",NA,"imm.escape",2021-10-01,2022-02-01,NA,NA,"omicron"
+NA,"South Africa","Western Cape","S","filtering",NA,"no.imm.escape",2022-02-02,2022-12-31,NA,NA,"omicron"
+NA,"South Africa","Western Cape","S","filtering",NA,"reset cntSR.S",2020-10-15,2020-10-21,NA,NA,"beta"
+NA,"South Africa","Western Cape","S","filtering",NA,"reset cntSR.S",2021-05-23,2021-05-29,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Western Cape","S","filtering",NA,"reset cntSR.S",2021-10-15,2021-10-21,NA,NA,"the week to reset cntSR.S and allow SR on S again to detect a new imm evasive wave"
+NA,"South Africa","Western Cape","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Western Cape","EI","filtering",NA,"voc.ini",NA,NA,NA,NA,NA
+NA,"South Africa","Western Cape","variant-wildtype","variant characterization",NA,NA,2020-03-01,2020-09-15,NA,NA,NA
+NA,"South Africa","Western Cape","variant-beta","variant characterization",NA,NA,2020-09-16,2021-05-15,NA,NA,NA
+NA,"South Africa","Western Cape","variant-delta","variant characterization",NA,NA,2021-05-16,2021-09-30,NA,NA,NA
+NA,"South Africa","Western Cape","variant-omicron","variant characterization",NA,NA,2021-10-01,2022-12-31,NA,NA,NA

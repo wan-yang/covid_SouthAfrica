@@ -1,0 +1,37 @@
+"loc","variant","date.start","date.end"
+"Gauteng","Ancestral",2020-03-01,2020-10-31
+"Gauteng","Beta",2020-11-01,2021-05-15
+"Gauteng","Delta",2021-05-16,2021-08-31
+"Gauteng","Omicron (BA.1)",2021-09-01,2022-03-05
+"KwaZulu-Natal","Ancestral",2020-03-01,2020-09-15
+"KwaZulu-Natal","Beta",2020-09-16,2021-05-15
+"KwaZulu-Natal","Delta",2021-05-16,2021-09-30
+"KwaZulu-Natal","Omicron (BA.1)",2021-10-01,2022-03-05
+"Western Cape","Ancestral",2020-03-01,2020-09-15
+"Western Cape","Beta",2020-09-16,2021-05-15
+"Western Cape","Delta",2021-05-16,2021-09-30
+"Western Cape","Omicron (BA.1)",2021-10-01,2022-03-05
+"Eastern Cape","Ancestral",2020-03-01,2020-08-15
+"Eastern Cape","Beta",2020-08-16,2021-04-30
+"Eastern Cape","Delta",2021-05-01,2021-10-15
+"Eastern Cape","Omicron (BA.1)",2021-10-16,2022-03-05
+"Limpopo","Ancestral",2020-03-01,2020-10-31
+"Limpopo","Beta",2020-11-01,2021-05-15
+"Limpopo","Delta",2021-05-16,2021-09-30
+"Limpopo","Omicron (BA.1)",2021-10-01,2022-03-05
+"Mpumalanga","Ancestral",2020-03-01,2020-10-31
+"Mpumalanga","Beta",2020-11-01,2021-05-15
+"Mpumalanga","Delta",2021-05-16,2021-09-30
+"Mpumalanga","Omicron (BA.1)",2021-10-01,2022-03-05
+"North West","Ancestral",2020-03-01,2020-10-31
+"North West","Beta",2020-11-01,2021-05-15
+"North West","Delta",2021-05-16,2021-09-30
+"North West","Omicron (BA.1)",2021-10-01,2022-03-05
+"Free State","Ancestral",2020-03-01,2020-10-31
+"Free State","Beta",2020-11-01,2021-05-31
+"Free State","Delta",2021-06-01,2021-09-30
+"Free State","Omicron (BA.1)",2021-10-01,2022-03-05
+"Northern Cape","Ancestral",2020-03-01,2020-10-31
+"Northern Cape","Beta",2020-11-01,2021-05-15
+"Northern Cape","Delta",2021-05-16,2021-09-30
+"Northern Cape","Omicron (BA.1)",2021-10-01,2022-03-05

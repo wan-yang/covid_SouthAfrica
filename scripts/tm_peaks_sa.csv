@@ -1,0 +1,19 @@
+loc,variant,date.start,date.end,wk.case.max
+Gauteng,delta,5/16/21,8/29/21,6/27/21
+Gauteng,omicron,9/5/21,2/27/22,12/5/21
+KwaZulu-Natal,delta,5/16/21,9/26/21,8/22/21
+KwaZulu-Natal,omicron,10/3/21,2/27/22,12/12/21
+Western Cape,delta,5/16/21,9/26/21,8/15/21
+Western Cape,omicron,10/3/21,2/27/22,12/19/21
+Eastern Cape,delta,5/2/21,10/10/21,8/22/21
+Eastern Cape,omicron,10/17/21,2/27/22,12/12/21
+Limpopo,delta,5/16/21,9/26/21,7/4/21
+Limpopo,omicron,10/3/21,2/27/22,12/12/21
+Mpumalanga,delta,5/16/21,9/26/21,7/4/21
+Mpumalanga,omicron,10/3/21,2/27/22,12/12/21
+North West,delta,5/16/21,9/26/21,7/4/21
+North West,omicron,10/3/21,2/27/22,12/12/21
+Free State,delta,6/6/21,9/26/21,8/22/21
+Free State,omicron,10/3/21,2/27/22,12/12/21
+Northern Cape,delta,5/16/21,9/26/21,8/22/21
+Northern Cape,omicron,10/3/21,2/27/22,12/12/21
