@@ -777,10 +777,10 @@ EAKF = function(epi.model=epi.model, num_ens=num_ens,inflat=1.03,
       PARMS = list(beta.mean = beta.mean,  Tir.mean= xpost['Tir',ii,tt], S = xpost['S1',ii,tt], N = N)
       Rt_ens[tt, ii] = Fn_getRt_SEIR(PARMS)
       
-      # PARMS = list(beta.mean = xpost['beta',ii,tt],  Tir.mean= xpost['Tir',ii,tt], S = xpost['S1',ii,tt], N = N) # it'd be the same as Rtx if use this parm list
-      R0_ens[tt, ii] = Fn_getR0_SEIR(PARMS)
+      PARMS = list(beta.mean = xpost['beta',ii,tt] * ifelse(seasonality, relR0[cur.wk,ii], 1),  Tir.mean= xpost['Tir',ii,tt], S = xpost['S1',ii,tt], N = N) 
+      R0_ens[tt, ii] = Fn_getR0_SEIR(PARMS) # cp Rtx: additionally account for seasonality
       
-      Rtx_ens[tt, ii] = xpost['beta',ii,tt] * xpost['Tir',ii,tt]
+      Rtx_ens[tt, ii] = xpost['beta',ii,tt] * xpost['Tir',ii,tt] # no seasonality
     } # ens
   }
   
