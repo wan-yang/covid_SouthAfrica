@@ -1,4 +1,4 @@
-## Code and data for: Yang & Shaman. 2022 COVID-19 pandemic dynamics in South Africa and epidemiological characteristics of three variants of concern (Beta, Delta, and Omicron). medRxiv:2021.2012.2019.21268073.
+## Code and data for: Yang & Shaman. 2022 COVID-19 pandemic dynamics in South Africa and epidemiological characteristics of three variants of concern (Beta, Delta, and Omicron). eLife 2022.
 
 
 ### data
@@ -35,3 +35,7 @@ Yang W & Shaman J (2022) COVID-19 pandemic dynamics in South Africa and epidemio
 Version 3: 
 Yang W & Shaman J (2022) COVID-19 pandemic dynamics in South Africa and epidemiological characteristics of three variants of concern (Beta, Delta, and Omicron). medRxiv:2021.2012.2019.21268073.
 https://www.medrxiv.org/content/10.1101/2021.12.19.21268073v3
+
+Peer-reviewed publication:
+Yang W & Shaman J (2022) COVID-19 pandemic dynamics in South Africa and epidemiological characteristics of three variants of concern (Beta, Delta, and Omicron). 2022 eLife. 
+
